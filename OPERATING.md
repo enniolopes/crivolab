@@ -8,6 +8,8 @@
 - **Time:** one **60-minute meeting per week**; roughly **1–2 hours/week** for regular participation. More involvement is voluntary.
 - **Access:** researchers, students, and practitioners at different levels are welcome. Members may return at any cycle.
 
+Why this format: **reading without application doesn't demonstrate transfer; application without critique can reward misleading evidence; mandatory delivery turns research into a product sprint.**
+
 ## One cycle = three weeks
 
 | Week | Meeting focus (60 min) | What should exist afterward |
@@ -52,6 +54,15 @@ Use Discord for fast discussion and GitHub for outcomes that must survive chat h
 - No private credentials, sensitive agent traces, proprietary code, or third-party data without permission.
 - Agree on public release, credit, authorship, and licensing before publishing shared artifacts. This private repository does **not** grant permission to redistribute others' material.
 - Use AI coding agents for implementation as useful; independently examine experiment design, assumptions, tests, and results. A generated eval does not certify itself.
+
+## When the format starts failing
+
+| Warning sign | Do this |
+| --- | --- |
+| One person does all the preparation | Rotate facilitation, split small tasks, or postpone a cycle. |
+| Meetings turn into passive presentations | Start with a concrete question and discuss competing answers. |
+| Experiments become an obligation or stall | Cut scope; a reviewed design or documented negative result counts. |
+| Everyone feels they learned, but cannot handle a new case | Test transfer on an unfamiliar problem; change the method, not the attendance target. |
 
 ## After the first two cycles (six-week pilot)
 
