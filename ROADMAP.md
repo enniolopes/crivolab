@@ -1,44 +1,35 @@
 # Research roadmap
 
-**Approach:** explore two foundational questions first, then select later topics from empirical gaps. Each cycle is **three weeks**: **Study → Apply → Critique & Improve**. One 60-minute weekly meeting; deeper experiments are voluntary.
+We study **the most important unanswered evaluation question**, rather than accumulating papers. A topic normally gets three weeks: **Study → Apply → Critique & Improve**.
 
-| Cycle | Status | Core question | Paper |
+**[Upcoming and previous sessions are tracked in the README.](README.md#upcoming-sessions)** This file records the *research direction*, not a duplicate calendar.
+
+## Initial questions
+
+| Cycle | Status | Core question | Primary reading |
 | --- | --- | --- | --- |
-| [01 — Measurement & Validity](cycles/01-validity.md) | **Planned** | What does an eval score legitimately establish? | [Measurement to Meaning](https://arxiv.org/abs/2505.10573) |
-| [02 — Causal / Counterfactual](cycles/02-counterfactual.md) | **Planned** | Which agent decisions matter, and what about alternatives we did not observe? | [arXiv:2606.05558](https://arxiv.org/abs/2606.05558) |
-| 03+ | **Undecided** | Pick the next highest-value knowledge gap | Chosen after critique and the pilot review |
+| [01 — Measurement & Validity](cycles/01-validity.md) | **Planned** | What does an eval result legitimately establish? | [Measurement to Meaning](https://arxiv.org/abs/2505.10573) |
+| [02 — Causal / Counterfactual](cycles/02-counterfactual.md) | **Planned** | What can we infer about an agent's decisions and unobserved alternatives? | [arXiv:2606.05558](https://arxiv.org/abs/2606.05558) |
+| 03+ | **Undecided** | Choose the next highest-value knowledge gap | Selected after critique |
 
-**Schedule:** start date, meeting time, facilitator, and Discord link are **TBD**. No outcomes are claimed until experiment records are updated.
+### Why these two?
 
-## Why this sequence?
+**Validity first:** distinguish a directly observed criterion from a latent construct, a measurement from a claim, and valid evidence from attractive but misleading scores. Ask *what the result actually warrants*, under which conditions, and what remains unsupported.
 
-**Foundation 1 — Measurement & Validity** asks *what evidence would support which claims?* We learn to distinguish constructs from criteria; measurement from evaluation and claim; valid scope from overgeneralization. It is not primarily a course on eval libraries.
+**Counterfactual reasoning next:** study decisions and trajectories rather than just final success, including what can—and cannot—be inferred about unobserved alternative actions. This second paper is frontier research, **not** an introductory tutorial; a small experiment is enough.
 
-**Foundation 2 — Causal / Counterfactual Evaluation** asks *what decisions caused an observed outcome, and what might have happened under another policy?* It introduces trajectory-level questions, assumptions, and uncertainty. It is **not** just "how to measure."
+The two questions together inform our [Eval Architect challenge](RESEARCH.md): tools, agent decisions, mission outcomes, and justified claims.
 
-Together they inform evaluation design for agent **tools, decisions, outcomes, and justified claims**.
+## After the six-week pilot
 
-## First two cycles: six-week pilot
+Review: **Can participants transfer ideas to unfamiliar cases? Did we produce reusable research artifacts? Is the format sustainable without concentrating work on one person?**
 
-| Week | Focus | Minimum useful outcome |
-| --- | --- | --- |
-| 1 | Read and debate the validity paper | Bounded claim and evidence-plan question |
-| 2 | Apply validity-centered design | Draft or runnable evaluation of a real capability |
-| 3 | Attack and repair the evaluation | Critique, revision, and explicit non-claims |
-| 4 | Read and debate counterfactual evaluation | Clear trajectory-level research question and assumptions |
-| 5 | Run a bounded sequential experiment | Evidence about decisions or a documented identifiability barrier |
-| 6 | Challenge the causal inference; review the group | Revised claim, recorded limitations, and pilot decision |
+Use that evidence to keep, simplify, or revise the group's operating model. Do not treat completed papers, commits, or participation counts as proof of learning.
 
-**No requirement to reproduce an entire frontier paper in a single week.** Reduce scope to one important mechanism or assumption.
+## What comes next?
 
-## Reading list
+Each cycle ends by asking: **What consequential claim or decision are we still unable to justify, and what knowledge would change that?** Select the next paper accordingly. Repeat prerequisites when needed.
 
-- **Primary — Cycle 01:** [Measurement to Meaning: A Validity-Centered Framework for AI Evaluation](https://arxiv.org/abs/2505.10573).
-- **Optional broader survey, after Cycle 01:** [arXiv:2507.21504](https://arxiv.org/abs/2507.21504).
-- **Primary — Cycle 02 (frontier, not introductory):** [arXiv:2606.05558](https://arxiv.org/abs/2606.05558).
+**Optional background survey:** [arXiv:2507.21504](https://arxiv.org/abs/2507.21504), after the first validity cycle.
 
-## Choosing the next topic
-
-After Week 3 of each cycle, ask: **What important claim or decision can we not yet support—and why?** Select the next paper to address the most consequential knowledge gap. Repeat foundational material when needed. Do not optimize for papers read, code written, or an artificial roadmap completion percentage.
-
-After the six-week pilot, assess **transfer to unfamiliar problems, reusable research outputs, and sustainable participation**. See [OPERATING](OPERATING.md). Record the outcome here when it happens.
+*Dates and facilitator assignments are not yet confirmed. Do not report proposed experiments as completed results.*

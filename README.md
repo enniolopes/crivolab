@@ -1,61 +1,41 @@
 # CRIVO Lab
-**AI Agent Evaluation Research Group**
+*AI Agent Evaluation Research Group*
 
-*Study → Apply → Critique & Improve*
+**Study · Apply · Critique & Improve**
 
-We are a lightweight research-and-practice group learning how to **evaluate AI agents rigorously**, turn research into experiments, and build reusable knowledge together.
+## Overview
 
-> **Our central question:** What evidence actually justifies a claim about an AI agent's capabilities?
+CRIVO Lab is a lightweight research group focused on **rigorous evaluation of AI agents**. We read relevant research, test ideas on real problems, challenge the evidence, and share what we learn.
 
-## At a glance
+Our long-term [research challenge](RESEARCH.md): **Can an AI agent design and critique defensible evaluations of other agents across different domains?** We call this experimental project *Eval Architect*.
 
-| | |
-| --- | --- |
-| **Mission** | Develop scientific judgment and practical competence in AI agent evaluation. |
-| **Research challenge** | Can an AI agent design and critique defensible evaluations of other agents across domains? |
-| **Cadence** | One 60-minute meeting per week; three-week cycles: Study → Apply → Critique & Improve. |
-| **Participation** | Reading and critical review are always valuable. Coding and experiments are voluntary. |
-| **Shared memory** | This repository: plans, decisions, experiments, limitations, and lessons. |
-| **Coordination** | Discord for conversation; GitHub for durable work. Meeting time and Discord link: **to be announced**. |
+We plan to meet **weekly for 60 minutes**. Everyone is welcome to discuss and review; implementation is voluntary. Each topic follows a three-week cycle: **Study → Apply → Critique & Improve**.
 
-## Start here
+**Meeting time, location/online link, and first date: to be announced.** See [how to participate](OPERATING.md).
 
-1. Read [How the group works](OPERATING.md) (participation, roles, meetings).
-2. See the [Roadmap](ROADMAP.md) for the next research questions and papers.
-3. Explore our [Core Research Challenge](RESEARCH.md): **Eval Architect**.
-4. Join a cycle: [01 — Measurement & Validity](cycles/01-validity.md) or [02 — Causal / Counterfactual Evaluation](cycles/02-counterfactual.md).
-5. To propose an experiment or paper, open a GitHub issue; use [the cycle template](cycles/TEMPLATE.md) when a new cycle starts.
+## Upcoming sessions
 
-## The research loop
+The first six sessions form a **two-cycle pilot**. Weeks are relative until dates are confirmed; facilitators will be assigned as people volunteer.
 
-```text
-Important question
-  → paper and critical discussion
-  → real experiment / evidence
-  → independent critique
-  → revision or justified limitation
-  → reusable learning + next question
-```
-
-**One cycle is not a feature sprint.** Refuting a claim, discovering an invalid metric, or documenting an unresolved limitation can be a valuable outcome.
-
-## First six weeks: two-cycle pilot
-
-| Cycle | Research question | Reading |
+| Week | Topic | Lead |
 | --- | --- | --- |
-| **01 — Measurement & Validity** | What can an evaluation result legitimately establish? | [Measurement to Meaning](https://arxiv.org/abs/2505.10573) |
-| **02 — Causal / Counterfactual** | What can we infer about decisions and alternatives not observed? | [arXiv:2606.05558](https://arxiv.org/abs/2606.05558) |
+| 1 | **Validity · Study** — [Measurement to Meaning](https://arxiv.org/abs/2505.10573) | TBD |
+| 2 | **Validity · Apply** — [design an agent eval](cycles/01-validity.md) | TBD |
+| 3 | **Validity · Critique** — [challenge and improve the eval](cycles/01-validity.md) | TBD |
+| 4 | **Counterfactual · Study** — [arXiv:2606.05558](https://arxiv.org/abs/2606.05558) | TBD |
+| 5 | **Counterfactual · Apply** — [investigate agent decisions](cycles/02-counterfactual.md) | TBD |
+| 6 | **Counterfactual · Critique** — [test assumptions and revise](cycles/02-counterfactual.md) | TBD |
 
-This is a **proposed sequence**, not a fixed calendar. We will review how the group functions after the pilot and choose later papers from the gaps we discover.
+## Previous sessions
 
-## What success looks like
+*None yet.* When sessions happen, we will move them here with links to findings or artifacts.
 
-- **People:** can apply ideas to unfamiliar problems, critique claims, and repair flawed evaluations.
-- **Research:** produces defensible evidence, including negative results and explicit uncertainty.
-- **Community:** leaves behind concise, reusable findings rather than a pile of meeting notes.
+## Background
 
-## Current state
+Our purpose is to develop **transferable research judgment and practical evaluation skills**, not just read papers or ship code. A useful cycle produces an investigated question, evidence (including negative findings), critical review, and a concise reusable record.
 
-**Setup / pre-pilot (October 2026).** The charter, research challenge, and initial cycles are defined here. No completed experiments, demonstrated agent capabilities, confirmed meeting schedule, or validated learning outcomes are implied.
+The first two cycles are a **pilot, not a fixed curriculum**. Later topics will follow the gaps discovered in experiments and the [research roadmap](ROADMAP.md). We will review learning and workload after the pilot.
 
-**Source of truth:** If this project is resumed without past chat context, read **README → OPERATING → RESEARCH → ROADMAP → latest cycle record**. Open questions and decisions should be updated in the repository, not left only in chat.
+**Explore:** [How we work](OPERATING.md) · [Research challenge](RESEARCH.md) · [Roadmap](ROADMAP.md) · [Cycle template](cycles/TEMPLATE.md)
+
+*Status: pre-pilot (October 2026). The repository is the project's durable source of truth. New contributors—or future AI assistants without conversation history—should start here and follow the links above. No sessions, experiments, or learning outcomes have been completed or validated yet.*
